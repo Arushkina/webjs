@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+  }
+  
+  body{
+    background: url(img/bg.png);
+  }
+  
+  .navbar a{
+    font-size: 16px;
+    font-weight: 600;
+    font-family: 'Ubuntu', sans-serif;
+  }
+  
+  .navbar-toggler{
+    padding: 1px 5px;
+    font-size: 18px;
+    line-height: 0.3;
+    background: white;
+  }
+
+  .p-3{
+    font-size: 2.2rem;
+    font-family: 'Bebas Neue', sans-serif;
+  }
+
+  .p-3 ul{
+    font-size: 1.5rem;
+    text-decoration: dotted;
+    display: grid;
+    transition: .3s ease;
+  }
+
+  .p-3 ul li:hover{
+    -webkit-text-stroke: 1px #050f15;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    color: white;
+    text-decoration: underline;
+  }
+
+  .mb-3 label{
+    font-size: 1.2rem;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 400;
+  }
+
+.mb-3 input{
+    border: 2px solid black;
+}
+
+.mb-3 textarea{
+    border: 2px solid black;
+}
+.error-message {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
